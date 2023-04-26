@@ -163,7 +163,7 @@ nav {
   /* width: 32px; */
   height: 22px;
   border: none;
-  caret-color: transparent;
+  background-color: transparent;
 }
 .mob-menu-icon {
   stroke: #2e2f42;
@@ -172,6 +172,10 @@ nav {
   /* border: 3px solid #2e2f42; */
 }
 .mob-menu {
+  width: 95%;
+  max-width: 392px;
+  height: 95%;
+  overflow: scroll;
   position: fixed;
   top: 0;
   left: 0;
@@ -219,6 +223,12 @@ nav {
 }
 .mob-menu-link {
   display: block;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .mob-menu-link:hover,
 .mob-menu-link:focus {
@@ -227,7 +237,7 @@ nav {
 }
 .menu-address-container {
   padding-left: 40px;
-  padding-top: 284px;
+  margin-top: auto;
   display: flex;
   flex-direction: column-reverse;
 }
@@ -253,7 +263,7 @@ nav {
 }
 .menu-soc-container {
   display: flex;
-  gap: 56px;
+  gap: 35px;
   padding-left: 40px;
   margin-top: 48px;
 }
@@ -330,7 +340,7 @@ nav {
   font-weight: 700;
   max-width: 496px;
   margin: 0 auto;
-  font-size: 36;
+  font-size: 36px;
   line-height: calc(40 / 36);
   text-align: center;
   color: #ffffff;
@@ -385,12 +395,14 @@ nav {
 }
 
 .modal {
+  width: 95%;
+  max-width: 395px;
+  height: 95%;
+  overflow: scroll;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* min-width: 100vw;
-  height: 100vh; */
   padding: 72px 24px 24px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -591,9 +603,7 @@ nav {
   cursor: pointer;
   transition: box-shadow 250ms var(--transition-timing-function);
 }
-.about-items:not(:last-child) {
-  margin-bottom: 72px;
-}
+
 .about-items::before {
   display: none;
   content: "";
@@ -649,6 +659,7 @@ nav {
   line-height: calc(24 / 16);
   color: #434455;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
 /* SECTION 3 WORK */
 .work-container {
@@ -815,8 +826,6 @@ nav {
 
 /* FOOTER */
 .footer-container {
-  text-align: center;
-  /* display: flex; */
 }
 .footer > .container {
   padding: 0;
@@ -836,7 +845,6 @@ nav {
   color: #f4f4fd;
 }
 .footer-text {
-  text-align: center;
   margin: 0 auto;
   color: #f4f4fd;
   max-width: 264px;
