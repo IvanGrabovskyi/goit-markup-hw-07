@@ -1,0 +1,63 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --white-text-colot: #ffffff;
+  --footer-text-color: #f4f4fd;
+  --web-text-color: #4d5ae5;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+  color: var(--secondary-text-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* WebStudio logo header  */
+.logo-icon {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.icon-logo {
+  color: #2e2f42;
+}
+
+/* NAVIGATION LIST  */
+.nav-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.nav-list-item:hover {
+  color: #404bbf;
+}
+.nav-list-item:focus {
+  color: #404bbf;
+}
+/* ADDRESS CONTACTS */
+.address-section {
+  font-style: normal;
+}
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+.contacts:focus {
+  color: #404bbf;
+}
+.contacts:hover {
+  color: #404bbf;
+}
