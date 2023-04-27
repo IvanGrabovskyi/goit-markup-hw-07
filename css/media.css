@@ -686,6 +686,7 @@
   /* SECTION 2 ABOUT US */
   .section-about-us {
     padding: 120px 0;
+    max-width: 1128px;
   }
   .about-us-title {
     display: none;
