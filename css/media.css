@@ -206,12 +206,15 @@
     margin-bottom: 0;
   }
   /* Section Customer */
-  .customers-list {
+  .customer > .container {
     padding: 0 108px;
+  }
+  .customers-list {
+    /* padding: 0 108px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 72px 0;
+    gap: 72px 24px;
   }
 
   /* FOOTER */
