@@ -660,7 +660,6 @@ nav {
   line-height: calc(24 / 16);
   color: #434455;
   letter-spacing: 0.02em;
-  margin-bottom: 72px;
 }
 /* SECTION 3 WORK */
 .work-container {
@@ -692,7 +691,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 82px;
 }
 .team-wrap {
   background: #f4f4fd;

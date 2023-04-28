@@ -19,96 +19,124 @@
   </head>
   <body>
     <header class="header">
-      <a href="./index.html" class="logo-icon link"
-        >Web<span class="icon-logo">Studio</span></a
-      >
-      <button type="button" class="menu-open-btn" data-menu-open>
-        <svg class="mob-menu-icon" width="32" height="18px">
-          <use href="./images/form.svg#icon-menu-burger"></use>
-        </svg>
-      </button>
-      <div class="mob-menu is-hidden" data-menu>
-        <button type="button" class="menu-close-btn" data-menu-close>
-          <svg width="8px" height="8px">
-            <use href="./images/closetagdefs.svg#icon-Vector"></use>
+      <div class="container header-container">
+        <nav>
+          <!-- LOGO -->
+
+          <a href="./index.html" class="logo-icon link"
+            >Web<span class="icon-logo">Studio</span></a
+          >
+
+          <!-- NAVIGATION LIST -->
+
+          <ul class="list nav-conteainer">
+            <li class="nav-list-item container-item">
+              <a class="link current link-itms" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-list-item container-item">
+              <a class="link link-itms" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-list-item container-item">
+              <a class="link link-itms" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- ADDRESS CONTACTS -->
+        <address class="address-section">
+          <ul class="list address-container">
+            <li>
+              <a class="contacts link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contacts link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="mob-menu-icon" width="32" height="22">
+            <use href="./images/form.svg#icon-menu-burger"></use>
           </svg>
         </button>
-        <div class="container header-container" data-menu>
-          <nav>
-            <!-- LOGO -->
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <button type="button" class="menu-close-btn" data-menu-close>
+          <svg class="close-icon">
+            <use
+              class="close-tag"
+              href="./images/closetagdefs.svg#icon-Vector"
+              width="8px"
+              height="8px"
+            ></use>
+          </svg>
+        </button>
+        <nav class="nav-mob-menu">
+          <ul class="list mob-menu-conteainer">
+            <li class="mob-menu-item">
+              <a class="link mob-menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="link mob-menu-link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a class="link mob-menu-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
 
-            <!-- <a href="./index.html" class="logo-icon link"
-              >Web<span class="icon-logo">Studio</span></a
-            > -->
-
-            <!-- NAVIGATION LIST -->
-
-            <ul class="list nav-conteainer">
-              <li class="nav-list-item container-item">
-                <a class="link current link-itms" href="./index.html">Studio</a>
-              </li>
-              <li class="nav-list-item container-item">
-                <a class="link link-itms" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-list-item container-item">
-                <a class="link link-itms" href="">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- ADDRESS CONTACTS -->
-          <address class="address-section">
-            <ul class="list address-container">
-              <li>
-                <a class="contacts link" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="contacts link" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-          <div class="soc-mob-container">
-            <ul class="menu-soc-list list">
-              <li class="team-soc-item">
-                <a class="team-soc-link link" href="">
-                  <svg class="team-soc-icon" width="12px" height="12px">
-                    <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="team-soc-item">
-                <a class="team-soc-link link" href="">
-                  <svg class="team-soc-icon" width="16px" height="16px">
-                    <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="team-soc-item">
-                <a class="team-soc-link link" href="">
-                  <svg class="team-soc-icon" width="16px" height="16px">
-                    <use
-                      class="team-soc-icon"
-                      href="./images/symbol-defs.svg#icon-facebook-1"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="team-soc-item">
-                <a class="team-soc-link link" href="">
-                  <svg class="team-soc-icon" width="16px" height="16px">
-                    <use
-                      class="team-soc-icon"
-                      href="./images/symbol-defs.svg#icon-linkedin-1"
-                    ></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <ul class="list menu-address-container">
+          <li>
+            <a class="mob-menu-mail link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mob-menu-tel link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+        <ul class="menu-soc-container list">
+          <li class="team-soc-item">
+            <a class="team-soc-link link" href="">
+              <svg class="team-soc-icon" width="24px" height="24px">
+                <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-soc-item">
+            <a class="team-soc-link link" href="">
+              <svg class="team-soc-icon" width="24px" height="24px">
+                <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-soc-item">
+            <a class="team-soc-link link" href="">
+              <svg class="team-soc-icon" width="24px" height="24px">
+                <use
+                  class="team-soc-icon"
+                  href="./images/symbol-defs.svg#icon-facebook-1"
+                ></use>
+              </svg>
+            </a>
+          </li>
+          <li class="team-soc-item">
+            <a class="team-soc-link link" href="">
+              <svg class="team-soc-icon" width="24px" height="24px">
+                <use
+                  class="team-soc-icon"
+                  href="./images/symbol-defs.svg#icon-linkedin-1"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
