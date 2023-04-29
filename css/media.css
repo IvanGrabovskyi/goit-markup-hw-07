@@ -714,6 +714,9 @@
     cursor: pointer;
     transition: box-shadow 250ms var(--transition-timing-function);
   }
+  .about-items:not(:last-child) {
+    margin-bottom: auto;
+  }
   .about-items::before {
     display: block;
     content: "";
